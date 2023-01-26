@@ -1,3 +1,5 @@
+File ```server.py``` is run on the victim box and ```client.py``` is run on the attacker machine.
+
 To generate the server private key file (server.key):
 ```openssl genpkey -algorithm RSA -out server.key -aes256```
 
